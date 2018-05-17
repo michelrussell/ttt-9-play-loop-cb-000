@@ -40,7 +40,7 @@ def play(board)
   total_turns = 0
   while total_turns <= 9
     turn(board)
-    total_turns +=
+    total_turns + 1
   end
 end
 
