@@ -39,6 +39,10 @@ end
 def play(board)
   loop do
     total_turns + 1
+    turn(board)
+    if total_turns = 10 
+      break
+    end
   
 end
 
