@@ -37,9 +37,9 @@ end
 
 # Define your play method below
 def play(board)
-  total_turns + 1
+  loop do
+    total_turns + 1
   
-  end
 end
 
 
