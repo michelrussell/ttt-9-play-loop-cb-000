@@ -34,9 +34,10 @@ def turn(board)
     turn(board)
   end
 end
-total_turns = 0
+
 # Define your play method below
 def play(board)
+  total_turns = 0
   loop do
     total_turns + 1
     turn(board)
