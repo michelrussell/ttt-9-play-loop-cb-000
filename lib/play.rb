@@ -40,6 +40,7 @@ def play(board)
   total_turns = 0
   while total_turns = 0
   turn(board)
+  total_turns +=
 end
 
 
